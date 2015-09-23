@@ -28,3 +28,6 @@ Here are some of the requirements:
 - io.reactivex:rxandroid
 - com.squareup.okhttp:okhttp
 - com.squareup.retrofit:retrofit
+
+# Releases can be found at following location
+- https://github.com/devpkjain/instasnaps/tree/master/rel
