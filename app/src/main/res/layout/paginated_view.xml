@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devpkjain.instasnaps.ui.view.pagination.PaginatedView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/paginated_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+    <FrameLayout
+            android:id="@+id/paginated_view_loading"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            >
+        <devpkjain.instasnaps.ui.view.MaterialProgressView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                />
+    </FrameLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/paginated_swipe_refresh_layout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/paginated_recycler_view"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</devpkjain.instasnaps.ui.view.pagination.PaginatedView>
